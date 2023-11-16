@@ -10,7 +10,7 @@ def rad2deg(x):
 # Square root function using bissection method
 # Input: number
 def  mysqrt(x):
-    tol=10**-5 # error tolerance
+    tol=10**-10 # error tolerance
     if x<0:
         return 0
     min=0
